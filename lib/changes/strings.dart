@@ -1,0 +1,12 @@
+String hellotag = "Hello! I'm";
+String yourname = "Sarah Bezerra,";
+String animationtxt1 = " Mobile Developer";
+String animationtxt2 = " Web developer";
+String contactHeadding = "Contact";
+String contactSubHeadding = "Let’s work together and build functional apps to make this world better.";
+String contactMail = "s.cavalcante@me.com";
+String miniDescription = "Experienced with over three years bringing great solutions using:  Flutter | Dart | Firebase | ReactJS | TS";
+String shorterDescription = "Flutter | Dart | Firebase | ReactJS | TS";
+String servicesSubHeading = "I specialize in seamless cross-platform app development. From polished UIs to robust backends, I bring a passion for quality and innovation. Having collaborated with diverse teams and startups, I offer a proactive, problem-solving approach to every project. Ready to elevate your next endeavor!";
+String portfolioSubHeading = "Check right below some of the projects that I've been working.";
+const String aboutMeHeadline = 'I\'m Sarah Bezerra, a Mobile and Web developer.';
