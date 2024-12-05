@@ -10,6 +10,9 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Clear Cache
+        run: flutter clean
+        
       # Checkout do repositório
       - uses: actions/checkout@v4
 
@@ -17,7 +20,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'latest-stable'
+          flutter-version: '3.13.8'
 
       # Instala dependências do Flutter
       - name: Install dependencies
