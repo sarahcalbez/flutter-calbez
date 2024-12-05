@@ -20,7 +20,7 @@ class ThemeColors {
       appBarTheme: AppBarTheme(
         backgroundColor: lightBackgroundColor,
       ),
-      textTheme: TextTheme(button: TextStyle(color: lightTextColor)));
+      textTheme: TextTheme(labelLarge: TextStyle(color: lightTextColor)));
   static final darkTheme = ThemeData(
     brightness: Brightness.dark,
     fontFamily: 'Poppins',

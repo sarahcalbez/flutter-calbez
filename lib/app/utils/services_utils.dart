@@ -1,4 +1,3 @@
-
 class ServicesUtils {
   final String name;
   final String icon;
@@ -14,24 +13,24 @@ class ServicesUtils {
 
 List<ServicesUtils> servicesUtils = [
   ServicesUtils(
-    name: "iOS and Android App's",
-    icon: 'assets/icons/apps.svg',
-    description:
-        "The art of making technology dance to the rhythm of the user needs.",
-    tool: ['Flutter | Dart'],
-  ),
-  ServicesUtils(
-    name: 'Web Development',
+    name: 'Front-end Development',
     icon: 'assets/icons/webpage.svg',
     description:
-        "Responsive designs and the best technologies available.",
+        "Crafting dynamic, user-centric web applications with cutting-edge technologies.",
     tool: ['ReactJS | TS | Flutter'],
+  ),
+  ServicesUtils(
+    name: "Mobile Development",
+    icon: 'assets/icons/apps.svg',
+    description:
+        "Building intuitive mobile experiences with clean interfaces that seamlessly align with user needs and behaviors",
+    tool: ['Flutter | Dart'],
   ),
   ServicesUtils(
     name: 'Back-end Development',
     icon: 'assets/icons/database.svg',
     description:
-        "Here is where the magic comes true and I make everything possible.",
-    tool: ['Firebase | Dart'],
+        "Building the foundation that powers your app, ensuring smooth, fast, and reliable performance every time.",
+    tool: ['Node | Java | Firebase | Dart'],
   ),
 ];

@@ -21,11 +21,11 @@ class Footer extends StatelessWidget {
             InkWell(
               onTap: () => openURL(gitHub),
               child: const Text(
-                " Sarah Bezerra",
+                " Sarah Alencar",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
-            const Text(" © 2023"),
+            const Text(" © 2024"),
           ],
         ),
       ),

@@ -21,11 +21,11 @@ class ContactDesktop extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nGet in Touch"),
+          const CustomSectionHeading(text: "\nGet started"),
           Space.y(1.w)!,
           const CustomSectionSubHeading(
             text:
-                "Thank you for considering me to work with you and feel free to contact me anytime.",
+                "Thank you for taking the time to review my projects, and feel free to reach out to me anytime!",
           ),
           Space.y(2.w)!,
           Container(
@@ -84,7 +84,7 @@ class ContactDesktop extends StatelessWidget {
                             //     width: 2.0, color: theme.primaryColor),
                             borderRadius: BorderRadius.circular(10)),
                         child: const Text(
-                          'Get Started',
+                          'Contact now',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,

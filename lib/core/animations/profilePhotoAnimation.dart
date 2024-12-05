@@ -34,7 +34,7 @@ class _ProfilePhotoAnimationState extends State<ProfilePhotoAnimation>
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    var theme = Theme.of(context);
+    Theme.of(context);
 
     return SizedBox(
       width: size.width / 4,
@@ -62,4 +62,3 @@ class _ProfilePhotoAnimationState extends State<ProfilePhotoAnimation>
     super.dispose();
   }
 }
-
