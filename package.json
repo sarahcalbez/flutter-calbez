@@ -1,0 +1,15 @@
+{
+  "name": "flutter-calbez",
+  "version": "1.0.0",
+  "description": "My professional portoflio using Flutter",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
